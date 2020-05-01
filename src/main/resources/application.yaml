@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  maxHttpHeaderSize: 1048576
+
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://dungeon-master:van-darkholme@cluster0-zexit.azure.mongodb.net/inventory?retryWrites=true&w=majority"
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+    serialization-inclusion: non_null
+
+
+
+
