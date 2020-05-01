@@ -13,4 +13,5 @@ public class Connection {
 
   private String port;
 
+  private FramingProtocol framingProtocol;
 }
